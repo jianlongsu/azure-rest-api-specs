@@ -41,7 +41,7 @@ These settings apply only when `--tag=package-2023-06-preview` is specified on t
 
 ```yaml $(tag) == 'package-2023-06-preview'
 input-file:
-  - preview/2023-06-01-preview/hdinsight.json
+  - Microsoft.HDInsight/preview/2023-06-01-preview/hdinsight.json
 suppressions:
   - code: ResourceNameRestriction
     reason: Keep compatibility with old API version.
